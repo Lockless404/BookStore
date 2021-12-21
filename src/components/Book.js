@@ -1,5 +1,4 @@
-const Book = (props) => {
-  const { title, author, genre } = props.data  ;
+const Book = ({ title, author, genre }) => {
   return (
     <div className="book">
       <div>
@@ -7,7 +6,7 @@ const Book = (props) => {
         <h2>{title}</h2>
         <h4>{author}</h4>
       </div>
-      <button type='button'>Remove</button>
+      <button type="button">Remove</button>
     </div>
   );
 };
