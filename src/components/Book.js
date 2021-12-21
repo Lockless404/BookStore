@@ -1,12 +1,14 @@
-const Book = (props) => (
-  <div className="book">
-    <div>
-      <h4>{props.data.genre}</h4>
-      <h2>{props.data.title}</h2>
-      <h4>{props.data.author}</h4>
+const Book = ({ title, author, genre }) => {
+  return (
+    <div className="book">
+      <div>
+        <h4>{genre}</h4>
+        <h2>{title}</h2>
+        <h4>{author}</h4>
+      </div>
+      <button type="button">Remove</button>
     </div>
-    <button type="button">Remove</button>
-  </div>
-);
+  );
+};
 
 export default Book;
