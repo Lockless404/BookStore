@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Book = ({ title, author, genre }) => (
   <div className="book">
@@ -15,6 +15,6 @@ Book.propTypes = {
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   genre: PropTypes.string.isRequired,
-}
+};
 
 export default Book;
