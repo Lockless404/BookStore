@@ -7,7 +7,7 @@ const Book = (
     title,
     author,
     genre,
-    id
+    id,
   }
 ) => {
   const dispatch = useDispatch();
@@ -22,8 +22,8 @@ const Book = (
       <button
         type="button"
         onClick={(e) => {
-        const id = e.target.parentElement.id;
-        dispatch(removeBook(id));
+          const { id } = e.target.parentElement;
+          dispatch(removeBook(id));
         }}
       >
         Remove
