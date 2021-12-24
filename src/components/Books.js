@@ -1,12 +1,10 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
-import { useSelector } from 'react-redux';
 
 const Books = () => {
-  const books = useSelector((state) => {
-    return state.books;
-  });
+  const books = useSelector((state) => state.books);
 
   return (
     <div className="books">

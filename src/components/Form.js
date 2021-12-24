@@ -56,7 +56,7 @@ const Form = () => {
         <button type="submit">Add Book</button>
       </form>
     </>
-  )
+  );
 };
 
 export default Form;
