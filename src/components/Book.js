@@ -8,7 +8,7 @@ const Book = (
     author,
     genre,
     id,
-  }
+  },
 ) => {
   const dispatch = useDispatch();
 
