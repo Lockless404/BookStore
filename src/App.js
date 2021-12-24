@@ -8,6 +8,7 @@ import { HiUser } from 'react-icons/hi';
 import './App.css';
 import Books from './components/Books';
 import Categories from './components/Categories';
+import Form from './components/Form';
 
 function App() {
   return (
