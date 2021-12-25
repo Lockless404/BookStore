@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://condescending-roentgen-8d71df.netlify.app/)
+[Live Demo Link](https://priceless-feynman-1b1623.netlify.app/)
 
 
 
