@@ -21,6 +21,7 @@
 [Live Demo Link](https://condescending-roentgen-8d71df.netlify.app/)
 
 
+
 ## Getting Started
 
 To get a local copy up and running in your machine:
@@ -32,6 +33,14 @@ To get a local copy up and running in your machine:
     2.Navigate to the location of the folder in your machine:
 
       you@your-Pc-name:~$ cd <folder>
+
+    3.Install all the dependencies:
+
+      npm install
+
+    4.Run app in your local browser:
+
+      npm start
 
 ## Authors
 
