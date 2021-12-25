@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App {
@@ -81,7 +82,17 @@ svg {
   padding: 2rem;
   background-color: #fff;
 }
+.genre {
+  color: #12121249;
+}
 
 button {
   height: 2rem;
+  width: 8rem;
+  background-color: #0290ff;
+  color: #fff;
+  border: 1px #0290ff solid;
+  padding: 0.3rem;
+  border-radius: 7%;
+  cursor: pointer;
 }
