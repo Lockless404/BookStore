@@ -8,7 +8,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #f5f6fa
+  background-color: #f5f6fa;
 }
 
 header {
@@ -84,7 +84,7 @@ svg {
 }
 
 h2 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .genre {
@@ -106,7 +106,7 @@ button {
   cursor: pointer;
 }
 
-hr{
+hr {
   width: 85%;
   margin: 2rem 0 2rem 0;
   height: 1px;
