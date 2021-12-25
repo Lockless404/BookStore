@@ -6,14 +6,14 @@ const Book = (
   {
     title,
     category,
-    item_id,
+    id,
   },
 ) => {
   const dispatch = useDispatch();
 
   return (
-    <div id={item_id} className="book">
-      <div key={item_id}>
+    <div id={id} className="book">
+      <div key={id}>
         <h4>{category}</h4>
         <h2>{title}</h2>
         <h4>author</h4>
@@ -21,7 +21,7 @@ const Book = (
       <button
         type="button"
         onClick={(e) => {
-          const { id }  = e.target.parentElement;
+          const { id } = e.target.parentElement;
           dispatch(deleteBook(id));
         }}
       >
@@ -34,7 +34,7 @@ const Book = (
 Book.propTypes = {
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
-  item_id: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default Book;

@@ -5,7 +5,6 @@ import { sendBook } from '../redux/books/books';
 const Form = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
-  const [author, setAuthor] = useState('');
   const [category, setCategory] = useState('');
 
   const submitBookToStore = (e) => {
@@ -17,7 +16,6 @@ const Form = () => {
     };
     dispatch(sendBook(newBook));
     setTitle('');
-    setAuthor('');
     setCategory('');
   };
 

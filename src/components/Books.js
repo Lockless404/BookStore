@@ -5,17 +5,17 @@ import Form from './Form';
 import { getBookApi } from '../redux/books/books';
 
 const Books = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const books = useSelector((state) => state.books);
   useEffect(() => {
-    dispatch(getBookApi())
-  },[]);
+    dispatch(getBookApi());
+  }, []);
 
   return (
     <div className="books">
       {books.map((book) => (
         <Book
-          item_id={book.item_id}
+          id={book.item_id}
           key={book.item_id}
           title={book.title}
           category={book.category}
