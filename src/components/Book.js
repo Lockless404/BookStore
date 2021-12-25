@@ -16,7 +16,7 @@ const Book = (
       <div key={id}>
         <h4 className="genre">{category}</h4>
         <h2>{title}</h2>
-        <h4 className="author">author</h4>
+        <h4 className="author">Author</h4>
       </div>
       <button
         type="button"
