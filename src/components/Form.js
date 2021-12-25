@@ -20,8 +20,8 @@ const Form = () => {
   };
 
   return (
-    <>
-      <h2>Add New Book</h2>
+    <div className="formPage">
+      <h2 className="formHeading">Add New Book</h2>
       <form action="#" onSubmit={submitBookToStore}>
         <input
           type="text"
@@ -42,9 +42,9 @@ const Form = () => {
           <option value="Grimdark Fantasy">Grimdark Fantasy</option>
           <option value="YA Fantasy">YA Fantasy</option>
         </select>
-        <button type="submit">Add Book</button>
+        <button className="formBtn" type="submit">Add Book</button>
       </form>
-    </>
+    </div>
   );
 };
 

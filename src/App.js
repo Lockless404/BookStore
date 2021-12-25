@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <header>
           <div className="leftNav">
-            <h1>BookStore THC</h1>
+            <h1>Fantasy BookStore</h1>
             <ul>
               <li>
                 <Link to="/">Books</Link>

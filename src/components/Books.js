@@ -21,6 +21,7 @@ const Books = () => {
           category={book.category}
         />
       ))}
+      <hr />
       <Form />
     </div>
   );

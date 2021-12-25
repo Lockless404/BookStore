@@ -14,9 +14,9 @@ const Book = (
   return (
     <div id={id} className="book">
       <div key={id}>
-        <h4>{category}</h4>
+        <h4 className="genre">{category}</h4>
         <h2>{title}</h2>
-        <h4>author</h4>
+        <h4 className="author">Author</h4>
       </div>
       <button
         type="button"
