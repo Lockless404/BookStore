@@ -33,6 +33,14 @@ To get a local copy up and running in your machine:
 
       you@your-Pc-name:~$ cd <folder>
 
+    3.Install all the dependencies:
+
+      npm install
+
+    4.Run app in your local browser:
+
+      npm start
+
 ## Authors
 
 👤 **Hamza Tarar**
