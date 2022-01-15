@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://priceless-feynman-1b1623.netlify.app/)
+[Live Demo Link](https://fantasy-bookstore.netlify.app/)
 
 
 
